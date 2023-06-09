@@ -52,6 +52,38 @@ prices = [7,6,4,3,1]
 soln.maxProfit(prices=prices)
 
 
+#%%
+### GeeksforGeeks
+# Type I: At most one transaction is allowed
+
+#%%
+def maxProfit(prices, n):
+    buy = prices[0]
+    max_profit = 0
+    for i in range(1, n):
+        # checking for lower buy value
+        if (buy > prices[i]):
+            buy = prices[i]
+            
+        # checking for the hugher profit
+        elif (prices[i] - buy > max_profit):
+            max_profit = prices[i] -buy
+    return max_profit
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
 
 
 
