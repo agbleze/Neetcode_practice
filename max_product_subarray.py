@@ -80,7 +80,8 @@ nums = [2,3,-2,4]
 maxSubarrayProduct(nums, n=len(nums))
 
 #%% test geekforgeek
-
+nums = [-2,0,-1]
+maxSubarrayProduct(nums, n=len(nums))
 
 
 
