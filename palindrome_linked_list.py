@@ -30,7 +30,18 @@ Follow up: Could you do it in O(n) time and O(1) space?
 
 #%% Neetcode -- using array to solve the problem
 
+from typing import Optional 
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
+def isPalindrome(self, head:ListNode) -> bool:
+    nums = []
+    
+    while head:
+        nums.append(head.val)
+        
 
 
 
