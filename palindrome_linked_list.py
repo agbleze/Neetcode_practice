@@ -55,8 +55,7 @@ def isPalindrome(self, head:ListNode) -> bool:
 
 
 
-
-
-
+#%% Needcode soln 2
+def isPalindrome( head)
 
 
