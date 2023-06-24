@@ -64,6 +64,8 @@ def two_sum(num: list, target: int) -> list:
 
 two_sum(num=[2,7,11,15], target=9)
 
+#%% 
+
              
 
 
