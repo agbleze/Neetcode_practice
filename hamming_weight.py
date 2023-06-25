@@ -1,7 +1,9 @@
 """
 191. Number of 1 Bits
 
-Write a function that takes the binary representation of an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
+Write a function that takes the binary representation of an unsigned 
+integer and returns the number of '1' bits it has 
+(also known as the Hamming weight).
 
 Note:
 
@@ -33,3 +35,30 @@ The input must be a binary string of length 32.
 
 Follow up: If this function is called many times, how would you optimize it?
 """
+#%%
+def num_bits_1(n):
+    res = 0
+    while n:
+        res += n % 2
+        n = n >> 1
+    return res
+    
+    
+#%% test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# %%
