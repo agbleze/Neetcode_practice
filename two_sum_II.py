@@ -12,8 +12,6 @@ not use the same element twice.
 
 Your solution must use only constant extra space.
 
- 
-
 Example 1:
 
 Input: numbers = [2,7,11,15], target = 9
